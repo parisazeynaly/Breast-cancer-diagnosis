@@ -12,7 +12,7 @@ This project uses the `Breast Cancer Wisconsin (Diagnostic)` dataset from the `s
 The project workflow includes the following steps:
 
 - **Exploratory Data Analysis (EDA):** Examining feature distributions and correlations using `pairplot` and `violinplot`.
-- ![Violin](images/Violin.png)
+-![Violin](Images/Violin.png)
 
 - **Data Preprocessing:** Using a `Pipeline` to scale features (`MinMaxScaler`) and prevent data leakage.
 - **Modeling:** Building a `RandomForestClassifier` for the classification task.
