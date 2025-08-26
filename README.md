@@ -14,6 +14,9 @@ The project workflow includes the following steps:
 - **Exploratory Data Analysis (EDA):** Examining feature distributions and correlations using `pairplot` and `violinplot`.
 -![Violin](Images/Violin.png)
 
+-![PairPlot](Images/PairPlot.png)
+
+
 - **Data Preprocessing:** Using a `Pipeline` to scale features (`MinMaxScaler`) and prevent data leakage.
 - **Modeling:** Building a `RandomForestClassifier` for the classification task.
 - **Model Evaluation:** Evaluating the model's performance with metrics like Accuracy, Precision, and Recall.
