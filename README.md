@@ -1,4 +1,3 @@
-# Breast-cancer-diagnosis
 # Breast Cancer Diagnosis Project
 
 **Summary:** This project uses an open-source dataset to build and evaluate a machine learning model for diagnosing breast tumors (benign vs. malignant).
@@ -13,6 +12,8 @@ This project uses the `Breast Cancer Wisconsin (Diagnostic)` dataset from the `s
 The project workflow includes the following steps:
 
 - **Exploratory Data Analysis (EDA):** Examining feature distributions and correlations using `pairplot` and `violinplot`.
+- ![Violin](images/Violin.png)
+
 - **Data Preprocessing:** Using a `Pipeline` to scale features (`MinMaxScaler`) and prevent data leakage.
 - **Modeling:** Building a `RandomForestClassifier` for the classification task.
 - **Model Evaluation:** Evaluating the model's performance with metrics like Accuracy, Precision, and Recall.
